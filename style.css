@@ -20,7 +20,6 @@ body {
         text-align: center;
         transition: ease-in-out linear 10s;
         initial-value: 0;
-        -webkit-perspective-origin: 10%;
 
   }
   /* Estilos adicionales aquí */
