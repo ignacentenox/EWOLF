@@ -1,45 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-
   <meta charset="UTF-8">
-  <title>PRUEBA VIDEO H.265</title>
-  <link rel="stylesheet" href="style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>44 Videos</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header>
-    <h1>PRUEBA VIDEO H.265</h1>
+    <h1>44 Contenidos Prueba</h1>
   </header>
-
   <main>
-    <section id="about">
-      <h2>PRUEBA 1</h2>
-      <img src="tu_foto.jpg" alt="Mi foto">
-      <p>desc</p>
-    </section>
-
-    <section id="skills">
-      <h2>Habilidades</h2>
-      <div class="skills-container">
-        <div class="skill">
-          <h3>Habilidad 1</h3>
-          <div class="skill-progress">
-            <div class="progress-bar" style="width: 80%;">80%</div>
-          </div>
-        </div>
-        <!-- Repite la estructura anterior para cada habilidad -->
-      </div>
-    </section>
-
-    <section id="gallery">
-      <h2>Galería</h2>
-      <!-- Aquí puedes agregar una galería de imágenes de tus trabajos -->
-    </section>
+    <video controls loop id="videoPlayer">
+      <source src="tu_video.mp4" type="video/mp4">
+      Tu navegador no admite la reproducción de video.
+    </video>
   </main>
-
-  <footer>
-    <p>Derechos de autor &copy; 2023 - IGNACE</p>
-  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,14 +1,6 @@
-// script.js
+// JavaScript opcional para personalizar el comportamiento del reproductor de video
 
-// Obtener todos los elementos con la clase "progress-bar"
-const progressBars = document.querySelectorAll('.progress-bar');
+const videoPlayer = document.getElementById('videoPlayer');
 
-// Animar las barras de progreso
-progressBars.forEach(bar => {
-  const width = bar.getAttribute('style');
-  bar.style.width = '0%';
+// Puedes agregar más funcionalidad JavaScript aquí, como eventos personalizados, reproducción automática, etc.
 
-  setTimeout(() => {
-    bar.style.width = width;
-  }, 500);
-});

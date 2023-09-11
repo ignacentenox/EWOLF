@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  /* Fondo negro */
+}
+
+header {
+  border-color: aliceblue;
+  background-color: #002aff50;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid orange;
+  /* Contorno de color naranja alrededor del video */
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
