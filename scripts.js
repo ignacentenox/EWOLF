@@ -1,6 +1,6 @@
 <video controls loop autoplay id="videoPlayer">
-  <source src="tu_video.mp4" type="video/mp4">
-    Tu navegador no admite la reproducción de video.</video>
+    <source src="tu_video.mp4" type="video/mp4"/>
+      //Tu navegador no admite la reproducción de video.</video>
 
 
 videoPlayer.addEventListener('ended', function () {

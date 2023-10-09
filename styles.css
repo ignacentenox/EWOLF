@@ -1,26 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Poppins-medium;
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #323232;
   /* Fondo negro */
 }
 
 header {
-  border-color: aliceblue;
-  background-color: #002aff50;
+  border-color: rgb(255, 255, 255);
+  background-color: #26ff0062;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 10px;
+  padding: 1px;
 }
 
 main {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
-  padding: px;
+  padding: 1px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border: 1px solid orange;
-  /* Contorno de color naranja alrededor del video */
+  border: 2px solid #55ff0063;
+  /* Contorno de color alrededor del video */
 }
 
 video {
